@@ -1,0 +1,9 @@
+pandas
+pyarrow
+pydantic
+google-cloud-bigquery
+google-cloud-storage
+
+[dev]
+pytest
+ruff

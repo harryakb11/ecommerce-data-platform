@@ -1,0 +1,11 @@
+environment: prod
+
+gcp:
+  project_id: ecommerce-data-prod
+  region: asia-southeast2
+
+storage:
+  bucket: ecommerce-data-prod
+
+bigquery:
+  dataset: ecommerce_prod

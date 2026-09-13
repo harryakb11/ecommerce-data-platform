@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ecommerce-data-platform
+Version: 0.1.0
+Summary: End-to-end e-commerce data engineering platform
+Requires-Python: <3.13,>=3.11
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: google-cloud-bigquery
+Requires-Dist: google-cloud-storage
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

@@ -1,0 +1,27 @@
+[project]
+name = "ecommerce-data-platform"
+version = "0.1.0"
+description = "End-to-end e-commerce data engineering platform"
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "pandas",
+    "pyarrow",
+    "pydantic",
+    "google-cloud-bigquery",
+    "google-cloud-storage",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
+
+[tool.ruff]
+line-length = 100
