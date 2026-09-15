@@ -14,9 +14,7 @@ with DAG(
     ingest_orders = BashOperator(
         task_id="ingest_orders",
         bash_command=(
-            "cd /opt/airflow && "
-            "export PYTHONPATH=/opt/airflow && "
-            "python src/ingestion/orders.py"
+            "cd /opt/airflow && export PYTHONPATH=/opt/airflow && python src/ingestion/orders.py"
         ),
     )
 
