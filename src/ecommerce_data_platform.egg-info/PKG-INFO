@@ -8,6 +8,8 @@ Requires-Dist: pyarrow
 Requires-Dist: pydantic
 Requires-Dist: google-cloud-bigquery
 Requires-Dist: google-cloud-storage
+Requires-Dist: psycopg2-binary
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: ruff; extra == "dev"
+Requires-Dist: dbt-bigquery; extra == "dev"

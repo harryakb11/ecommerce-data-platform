@@ -3,7 +3,9 @@ pyarrow
 pydantic
 google-cloud-bigquery
 google-cloud-storage
+psycopg2-binary
 
 [dev]
 pytest
 ruff
+dbt-bigquery

@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "Raw e-commerce data loaded by the Python ingestion pipeline."
+
+    schema: raw
+
+    tables:
+      - name: orders
+        description: "Raw customer orders ingested from the orders CSV file."
+
+        columns:
+          - name: order_id
+            description: "Unique identifier for the order."
+
+          - name: order_date
+            description: "Date when the order was created."
+
+          - name: customer_id
+            description: "Unique identifier for the customer."
+
+          - name: product_id
+            description: "Unique identifier for the product."
+
+          - name: quantity
+            description: "Number of products ordered."
+
+          - name: unit_price
+            description: "Price per product."
+
+          - name: status
+            description: "Current order status."
