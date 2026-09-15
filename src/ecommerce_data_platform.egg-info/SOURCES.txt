@@ -1,6 +1,15 @@
 pyproject.toml
+src/__init__.py
 src/ecommerce_data_platform.egg-info/PKG-INFO
 src/ecommerce_data_platform.egg-info/SOURCES.txt
 src/ecommerce_data_platform.egg-info/dependency_links.txt
 src/ecommerce_data_platform.egg-info/requires.txt
 src/ecommerce_data_platform.egg-info/top_level.txt
+src/ingestion/__init__.py
+src/ingestion/main.py
+src/transformation/__init__.py
+src/transformation/main.py
+src/utils/__init__.py
+src/utils/config.py
+src/utils/database.py
+src/utils/test_database.py

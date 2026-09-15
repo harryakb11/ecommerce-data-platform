@@ -10,12 +10,17 @@ dependencies = [
     "pydantic",
     "google-cloud-bigquery",
     "google-cloud-storage",
+    "psycopg2-binary",
+    "python-dotenv",
+    "pyyaml",
 ]
 
 [project.optional-dependencies]
 dev = [
     "pytest",
     "ruff",
+    "dbt-bigquery",
+    "dbt-postgres",
 ]
 
 [tool.pytest.ini_options]

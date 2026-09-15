@@ -1,0 +1,35 @@
+version: 2
+
+models:
+  - name: fct_orders
+    description: >
+      Final order fact table containing non-cancelled e-commerce orders.
+
+    columns:
+
+      - name: order_id
+        description: "Unique identifier for the order."
+        tests:
+          - not_null
+          - unique
+
+      - name: order_date
+        description: "Date when the order was created."
+
+      - name: customer_id
+        description: "Unique identifier for the customer."
+
+      - name: product_id
+        description: "Unique identifier for the product."
+
+      - name: quantity
+        description: "Number of products ordered."
+
+      - name: unit_price
+        description: "Price per product."
+
+      - name: gross_amount
+        description: "Total value of the order."
+
+      - name: status
+        description: "Order status. Cancelled orders are excluded."

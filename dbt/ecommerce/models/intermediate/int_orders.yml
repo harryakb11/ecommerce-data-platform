@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: int_orders
+    description: >
+      Intermediate order dataset containing calculated order-level
+      gross amounts.
+
+    columns:
+
+      - name: order_id
+        description: "Unique identifier for the order."
+
+      - name: customer_id
+        description: "Unique identifier for the customer."
+
+      - name: product_id
+        description: "Unique identifier for the product."
+
+      - name: quantity
+        description: "Number of products ordered."
+
+      - name: unit_price
+        description: "Price per product."
+
+      - name: gross_amount
+        description: "Total order value before cancellation filtering."
+
+      - name: status
+        description: "Order status."

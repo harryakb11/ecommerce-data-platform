@@ -1,0 +1,14 @@
+ecommerce:
+  target: dev
+
+  outputs:
+
+    dev:
+      type: postgres
+      host: postgres
+      port: 5432
+      user: ecommerce
+      password: ecommerce
+      dbname: ecommerce
+      schema: analytics
+      threads: 4
